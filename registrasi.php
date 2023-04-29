@@ -1,5 +1,5 @@
 <?php
-    include_once("konfigurasi.php");
+    include("konfigurasi.php");
     $psn = "";
     if(isset($_POST["txNAMA"])){
         $pass1 = $_POST["txPASS1"];
